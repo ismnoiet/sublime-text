@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+Backbone.View.extend({
+	${1:tagName:"${2:}",}
+	${3:id:"${4:}",}
+	${5:template:"_.template(${6:element_selector})",}
+	${7:render:function()\{
+		${8:var tmp = _.template(this.model.toJSON());}
+		${9:this.$el.html(tmp);}
+		${10:return this;}
+	\}}
+	${11:}	
+\})
+
+]]></content>	
+	<tabTrigger>backbonejs_view</tabTrigger>	
+</snippet>
