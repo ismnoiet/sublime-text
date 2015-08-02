@@ -1,0 +1,5 @@
+[
+  {
+		"keys": ["ctrl+p", "ctrl+p"], "command": "prompt_add_folder"
+	}
+]
