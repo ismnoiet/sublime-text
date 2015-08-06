@@ -1,7 +1,0 @@
-<snippet>
-	<content><![CDATA[
-http://placehold.it/${1:200x200}
-]]></content>
-	
-	<tabTrigger>tmpimage</tabTrigger>
-</snippet>
